@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trello</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="d-flex flex-wrap align-items-start justify-content-between py-3 ">
+          <a href="/" class="d-flex align-items-center col-md-1 mb-2 mb-md-0 text-dark text-decoration-none">
+            <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><img src="imgs/Trello-logo.png" alt="" height="37.5"></svg>
+          </a>
+    
+          <ul class="nav col-md-auto  justify-content-start" id="areaInfoHeader">
+            <li><a href="#" class="nav-link px-2 link-dark botoesHeader">Features</a></li>
+            <li><a href="#" class="nav-link px-2 link-dark botoesHeader">Solutions</a></li>
+            <li><a href="#" class="nav-link px-2 link-dark botoesHeader">Plans</a></li>
+            <li><a href="#" class="nav-link px-2 link-dark botoesHeader">Pricing</a></li>
+            <li><a href="#" class="nav-link px-2 link-dark botoesHeader">Resources</a></li>
+          </ul>
+    
+          <div class="d-flex col-md-5 text-end align-items-center justify-content-end mb-5" id="areaBotoesHeader">
+            <button type="button" class="btn me-2" id="botaoLogin">Log in</button>
+            <button type="button" class="btn btn-primary" id="botaoGetTrello">Get Trello for free</button>
+          </div>
+        </header>
+      </div>
+      <span class="d-flex align-items-center justify-content-center" style="height: 60px; background-color: #DEEBFF; font-weight: 450;" id="learnMore">Accelerate your teams' work with Atlassian Intelligence (AI) features 🤖 now available for all Premium and Enterprise!  <a href="#" style="margin-left: 5px;">Learn more.</a> </span>
+
+
+      <div class="container-fluid col-xxl-8 px-4 py-5" id="heroBanner" style="height: 766px;">
+
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="imgs/imagemBanner.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="632" height="638" loading="lazy">
+          </div>
+
+          <div class="col-lg-4 d-flex flex-column  justify-content-center" style="width: 570px; height: 640px; margin-top: -100px;">
+            <h1 class="display-5 fw-semibold text-body-emphasis lh-2 mb-3 fs-0">Capture, organize, and tackle your to-dos from anywhere.</h1>
+            <p class="lead fw-normal">Escape the clutter and chaos—unleash your productivity with Trello.</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <input type="prompt" class="px-4 me-md-2" placeholder="Email" style="border-radius: 5px;" style="width: 300px; height: 50px; ">
+              <button type="button" class="btn btn-primary btn-lg px-4 fs-16" style="height: 50px; font-size: 16px;">Sign up - it’s free!</button>
+            </div>
+            <a class="d-flex mt-4" href="#">Watch Video</a>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="container col-lg-10 bg-white d-flex flex-column" id="heroTrello101" style="height: 890px; width: 100%;">
+        <div class="d-flex flex-column" id="areaTextoTrello101" style="height: 222px; width:665px; margin-left: 100px;">
+          <span class="fs-6 mt-3 fw-semibold">TRELLO 101</span> 
+          <span class="fs-2 mt-2 fw-semibold">Your productivity powerhouse</span>
+          <span class="fs-5 mt-4 fw-normal">Stay organized and efficient with Inbox, Boards, and Planner. Every to-do, idea, or responsibility—no matter how small—finds its place, keeping you at the top of your game.</span>
+        </div>
+        
+        <div class="d-flex flex-row mt-4" id="areainfoTrello101" style="margin-left: 100px;">
+          <div class="d-flex flex-column" id="areaCaixasInfo">
+            <div class="rounded shadow d-flex flex-column" style="width: 350px; height: 165px; border-left: solid 8px #00c7e5 ;">
+              <img src="imgs/coming-soon.png" class="ms-3 mt-4" style="width: 73.5px; height: 12px;">
+              <span class="ms-3 fw-semibold fs-5">Inbox</span>
+              <span class="ms-3 mt-1" style="width: 80%;">When it’s on your mind, it goes in your Inbox. Capture your to-dos from anywhere, anytime.</span>
+            </div>
+            <div class="d-flex flex-column" style="width: 350px; height: 165px;">
+              <span class="ms-3 fw-semibold fs-6 mt-4">Boards</span>
+              <span class="ms-3 mt-1 fs-7" style="width: 80%;">Your to-do list may be long, but it can be manageable! Keep tabs on everything from "to-dos to tackle" to "mission accomplished!”</span>
+            </div>
+            <div class="d-flex flex-column" style="width: 350px; height: 165px;">
+              <img src="imgs/coming-soon.png" class="ms-3 mt-4" style="width: 73.5px; height: 12px;">
+              <span class="ms-3 fw-semibold fs-6">Planner</span>
+              <span class="ms-3 mt-1" style="width: 80%;">Drag, drop, get it done. Snap your top tasks into your calendar and make time for what truly matters.</span>
+            </div>
+          </div>
+
+          <img src="imgs/imagemInfo.png" alt="" class="ms-5 rounded" style="width: 728px; height: 488px;">
+        </div>
+
+      </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
